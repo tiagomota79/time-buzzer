@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+#app {
+  text-align: center;
+}
+
+button {
+  background-color: dodgerblue;
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  font-size: larger;
+}
+
+#signal {
+  display: grid;
+  place-items: center;
+  font-size: 100px;
+  width: 150px;
+  height: 150px;
+  background-color: coral;
+  color: white;
+}
+
+#arena {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  place-items: center;
+}
+
+.team {
+  display: grid;
+  place-items: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+}
