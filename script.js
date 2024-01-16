@@ -81,6 +81,6 @@ function restart() {
   startButton.style.display = 'inline-block';
   startButton.innerHTML = 'Start countdown';
   startButton.addEventListener('click', start);
-  team2Info.innerHTML = `Team 2 (right) uses the 'p' key`;
-  team1Info.innerHTML = `Team 1 (left) uses the 'p' key`;
+  // team2Info.innerHTML = `Team 2 (right) uses the 'p' key`;
+  // team1Info.innerHTML = `Team 1 (left) uses the 'p' key`;
 }
